@@ -1,0 +1,62 @@
+# Abaixo um código em HTML para ser usado dentro do Google Earth para Provedores de Internet!
+# Esse Código em HTML Cria uma imagem dentro do TXT na qual permite você ter as informações de splitters usados nas CTOs
+# Lembre-se de editar os dados de acordo com seus nomes, ainda não está na fase final na qual faz automático apenas incerindo a potência de entrada.
+
+# Se for gravar não esquece de mencionar o criador "SACJ".
+
+# CÓDIGO ABAIXO.
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Splitters</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+
+        .splitter {
+            margin: 20px auto;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background-color: #f9f9f9;
+            max-width: 500px;
+        }
+
+        .splitter h2 {
+            text-align: center;
+            color: #555;
+        }
+
+        .splitter p {
+            margin: 10px 0;
+            font-size: 1rem;
+            color: #333;
+        }
+
+        .splitter .result {
+            font-weight: bold;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="splitter">
+        <h2>Splitter 10/90</h2>
+        <p>Entrada: <span class="result">+5 dBm</span></p>
+        <p>10% (Saída): <span class="result">-6,3 dBm</span></p>
+        <p>90% (Saída): <span class="result">+4,35 dBm</span></p>
+    </div>
+
+    <div class="splitter">
+        <h2>Splitter 1/16</h2>
+        <p>Entrada: <span class="result">-6,3 dBm</span></p>
+        <p>Saída por porta: <span class="result">-20 dBm</span></p>
+    </div>
+</body>
+</html>
