@@ -1,0 +1,139 @@
+# Abaixo um código em HTML para ser usado dentro do Google Earth para Provedores de Internet!
+# Esse Código em HTML Cria uma imagem dentro do TXT na qual permite você ter as informações de postes
+# Lembre-se de editar os dados de acordo com seus nomes.
+
+# Se for gravar não esquece de mencionar o criador "SACJ".
+
+# CÓDIGO ABAIXO.
+
+<!DOCTYPE html>
+<html>
+<head>
+    <style type="text/css">
+        .wrapper > div {
+            position: relative;
+        }
+
+        .wrapper > div > hr {
+            position: absolute;
+            width: 90%;
+            bottom: 3px;
+            margin: 0 auto;
+            color: #F6F6F6;
+        }
+
+        .wrapper div div {
+            width: 100px;
+            display: inline-block;
+            margin: 5px;
+        }
+
+        .tbl {
+            padding-top: 5px;
+        }
+
+        .tbl td, .tbl th {
+            padding: 2px 5px;
+            border: 1px solid black;
+        }
+
+        th:nth-child(3), th:nth-child(4) {
+            width: 60px;
+        }
+
+        td:nth-child(3), th:nth-child(3), td:nth-child(4), th:nth-child(4) {
+            text-align: right;
+        }
+
+        td:nth-child(5), th:nth-child(5) {
+            text-align: center;
+        }
+
+        .ce {
+            text-align: center;
+        }
+
+        .fp {
+            font: bold 1.2em Helvetica, Arial, sans-serif;
+            padding: 10px 0;
+        }
+
+        .im {
+            width: 100px;
+            padding: 4px;
+        }
+
+        tr.header {
+            background-color: #000000;
+            font-weight: bold;
+            color: #FFFF00;
+        }
+
+        .msg {
+            background-color: #DDDCC5;
+            color: #6A5ACD;
+            padding: 5px;
+        }
+
+        .pr {
+            background-color: #EAE6D0;
+            padding: 5px;
+        }
+
+        .ir {
+            background-color: #F8F8F1;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper" style="width: 600px;">
+        <div>
+            <div><b>CIDADE:</b></div>
+            GRAVATA*
+            <hr>
+        </div>
+        <div>
+            <div><b>BAIRRO:</b></div>
+            NOVO
+            <hr>
+        </div>
+        <div>
+            <div><b>N.POSTE:</b></div>
+            5564448
+            <hr>
+        </div>
+        <div>
+            <div><b>CDOE:</b></div>
+            NÃO
+            <hr>
+        </div>
+        <div>
+            <div><b>CTO:</b></div>
+            SIM
+            <hr>
+        </div>
+        <div>
+            <div><b>Cadastrado por:</b></div>
+            Samuel Corrêa - 23/01/2025
+            <hr>
+        </div>
+    </div>
+    <table class="tbl">
+        <tr class="header">
+            <th>ALTURA</th>
+            <th>ESFORÇO</th>
+            <th>TRANSFORMADOR</th>
+            <th>LATITUDE</th>
+            <th>LONGITUDE</th>
+        </tr>
+        <tr class="pr">
+            <td>10</td>
+            <td>300*</td>
+            <td>SIM</td>
+            <td>8°12'28.41"S</td>
+            <td>35°34'7.10"O</td>
+        </tr>
+    </table>
+</body>
+</html>
